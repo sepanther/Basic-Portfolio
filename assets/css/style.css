@@ -1,19 +1,30 @@
-body {
+html, body {
     margin:0px;
     padding:0px;
+    height:100%;
+    position:relative;
+    z-index:0;
 }
 
 .page {
     width:960px;
     margin:auto;
-    height:100%
+    height:80%;
 }
 
 header {
-    width:960px;
+    width:100%;
     margin:auto;
     background-color:#ffffff;
     align:center;
+    position:absolute;
+    top:0;
+    z-index:9;
+}
+
+.container {
+    width:960px;
+    margin:auto;
 }
 
 .background {
@@ -21,8 +32,11 @@ header {
     border-width:1px;
     border-top-color:#cccccc;
     background-image: url("../images/bananas.png");
-    padding:0px;
+    padding:100px 0px 0px;
     margin:0px;
+    height:100%;
+    position:relative;
+    z-index:-1;
 }
 
 .name {
@@ -80,7 +94,7 @@ section {
     border-width:1px;
     border-color:#dddddd;
     padding:10px 30px;
-    margin:40px 0px 210px;
+    margin:50px 0px;
     line-height:1.6;
 }
 
@@ -94,6 +108,62 @@ section {
 
 a {
     color:#777777;
+}
+
+.portfolioItem {
+    margin: 15px 20px 15px 90px;
+    width: 261px;
+    height: 174px;
+    float: left;
+    background: url(../images/iphone.jpg);
+    background-size: 261px 174px;
+    position: relative;
+  }
+
+h3 {
+    position:absolute;
+    top:100px;
+    padding:0px;
+    width:100%;
+    background:#4aaaaf;
+    color:#ffffff;
+    text-align:center;
+}
+
+/* .portfolioItem {
+    margin:20px;
+    text-align:center;
+    position:relative;
+} */
+
+.portfolioImage,
+.banner {
+    width:50%;
+    height:50%;
+}
+
+.portfolioImage {
+    float:left;
+    position:relative;
+    z-index:5;
+}
+
+.banner {
+    background-color:#4aaaa5;
+    color:#ffffff;
+    position:relative;
+    float:left;
+}
+
+.column {
+    float:left;
+    width:50%;
+}
+
+.portfolio::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 input[type=text] {
@@ -126,14 +196,10 @@ footer {
     color:#dddddd;
     text-align:center;
     font-size:12px;
-    vertical-align:text-bottom;
     border-top-style:solid;
     border-width:10px;
     border-color:#4aaaa5;
-}
-
-form {
-
+    margin:0px;
 }
 
 #footerText {
