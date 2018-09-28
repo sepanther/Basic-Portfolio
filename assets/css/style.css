@@ -110,6 +110,10 @@ a {
     color:#777777;
 }
 
+a:hover {
+    color:#4aaaaf;
+}
+
 .portfolioItem {
     margin: 15px 20px 15px 90px;
     width: 261px;
@@ -169,6 +173,16 @@ h3 {
 input[type=text] {
     width:100%;
     padding:5px 10px;
+}
+
+.button {
+    background-color:#4aaaaf;
+    color:#ffffff;
+    height:30px;
+    width:80px;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align:center;
+    font-size:12px;
 }
 
 #message {
