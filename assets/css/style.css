@@ -119,17 +119,29 @@ a:hover {
     width: 261px;
     height: 174px;
     float: left;
-    background: url(../images/iphone.jpg);
     background-size: 261px 174px;
     position: relative;
+  
   }
+
+#ItemB,
+#ItemC,
+#ItemD {
+    background: url(../images/iphone.jpg);
+}
+
+#hangmanItem {
+    background: url(../images/hangman.jpg);
+    background-size: 261px 174px;
+}
 
 h3 {
     position:absolute;
-    top:100px;
+    top:145px;
     padding:0px;
     width:100%;
     background:#4aaaaf;
+    opacity:1;
     color:#ffffff;
     text-align:center;
 }
