@@ -124,7 +124,6 @@ a:hover {
   
   }
 
-#ItemB,
 #ItemC,
 #ItemD {
     background: url(../images/iphone.jpg);
@@ -135,9 +134,14 @@ a:hover {
     background-size: 261px 174px;
 }
 
+#starwarsItem {
+    background: url(../images/millenium.jpg);
+    background-size: 100%;
+}
+
 h3 {
     position:absolute;
-    top:145px;
+    top:135px;
     padding:0px;
     width:100%;
     background:#4aaaaf;
