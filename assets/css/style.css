@@ -139,6 +139,11 @@ a:hover {
     background-size: 100%;
 }
 
+#LOTRitem {
+    background: url(../images/LOTR.jpg);
+    background-size:100%;
+}
+
 h3 {
     position:absolute;
     top:135px;
